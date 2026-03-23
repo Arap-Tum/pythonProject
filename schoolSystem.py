@@ -26,6 +26,6 @@ conn.commit()
 print("Tbale has created successfully")
 
 
-cursor.execute("SELECT * FROM  school_system")
+cursor.execute("SELECT * FROM  students")
 for row in cursor:
     print(row)
