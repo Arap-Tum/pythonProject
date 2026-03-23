@@ -23,7 +23,7 @@ cursor.execute("""
 
 conn.commit()
 
-print("Tbale created successfully")
+print("Tbale has created successfully")
 
 
 cursor.execute("SELECT * FROM  school_system")
