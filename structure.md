@@ -19,3 +19,6 @@ memberships
 - id (PK)
 - student_id (FK)
 - club_id (FK)
+
+Install dependencies
+pip install psycopg2-binary python-dotenv
